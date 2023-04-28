@@ -8,11 +8,11 @@
     </div>
 </template>
 <script lang="ts" setup>
-// import { showMsg } from '../library/index' //  HelloWorld,
+import { showMsg } from '../library' //  HelloWorld, // 组件可以全局注册，可以按需导入
 // import gg from '../library/index'
 const testClick = (v) => {
     alert(v.value)
 }
-// showMsg()
+// showMsg('123')
 // gg.showMsg()
 </script>

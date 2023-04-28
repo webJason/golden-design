@@ -8,6 +8,6 @@
     "paths": {
       "@/*": ["./library/*"]
     },
-    "types": ["unplugin-vue-define-options/*"]
+    "types": ["unplugin-vue-define-options"]
   }
 }
